@@ -8,6 +8,6 @@ plot3 <- function() {
   plot(help, e_power$Sub_metering_1, type="l", xlab = "", ylab = "Energy Sub Metering")
   lines(help, e_power$Sub_metering_3, type = "l", col = "blue")
   lines(help, e_power$Sub_metering_2, type = "l", col = "red")
-  legend("topright", legend = c("Submetering 1", "Submetering 2", "Submetering 3"), lty = c(3,2), col = c("black", "red", "blue"))
+  legend("topright", legend = c("Submetering 1", "Submetering 2", "Submetering 3"), lty = c(1,1), col = c("black", "red", "blue"))
   dev.off()
 }
